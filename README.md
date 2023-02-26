@@ -16,3 +16,11 @@ In Problem 2, we try different values for time step `dt` and test the instabilit
 In Problem 3, we define and calculate the energy density of the wave. Energy density as a function of `t` and `x` is given as
 
 $\epsilon(t,x) = \frac{1}{2} \left(  \left(\frac{du}{dt}\right)^2 + \left(\frac{du}{dx}\right)^2 \right)$
+
+Below, we plot the energy density using the function from Problem 1. We decrease the width of the initial wave to `W = 0.05` after trying different values to get an optimum plot.
+
+![download](https://user-images.githubusercontent.com/122399037/221425029-aeb5bc97-c9a3-4381-8d54-7c7d06b177cc.png)
+
+As expected, values of energy density are high at the peaks of the Gaussian-like wave. Furthermore, when the waves are reflected from the boundaries or cross each other they interfere for a short amount of time, resulting a higher value of energy density.
+
+
