@@ -15,6 +15,4 @@ In Problem 2, we try different values for time step `dt` and test the instabilit
 
 In Problem 3, we define and calculate the energy density of the wave. Energy density as a function of `t` and `x` is given as
 
-\begin{equation}
-    \epsilon(t,x) = \frac{1}{2} \left(  \left(\frac{du}{dt}\right)^2 + \left(\frac{du}{dx}\right)^2 \right)
-\end{equation}
+$\epsilon(t,x) = \frac{1}{2} \left(  \left(\frac{du}{dt}\right)^2 + \left(\frac{du}{dx}\right)^2 \right)$
